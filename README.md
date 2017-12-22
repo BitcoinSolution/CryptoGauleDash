@@ -1,7 +1,7 @@
 cryptogaule Core staging tree 0.12.2
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/BitcoinSolution/CryptoGaulecryptogaule.svg?branch=master)](https://travis-ci.org/BitcoinSolution/CryptoGaulecryptogaule) `develop:` [![Build Status](https://travis-ci.org/BitcoinSolution/CryptoGaulecryptogaule.svg?branch=develop)](https://travis-ci.org/BitcoinSolution/CryptoGaulecryptogaule/branches)
+`master:` [![Build Status](https://travis-ci.org/BitcoinSolution/CryptoGauleDash.svg?branch=master)](https://travis-ci.org/BitcoinSolution/CryptoGauleDash) `develop:` [![Build Status](https://travis-ci.org/BitcoinSolution/CryptoGauleDash.svg?branch=develop)](https://travis-ci.org/BitcoinSolution/CryptoGauleDash/branches)
 
 https://www.cryptogaule.org
 
