@@ -23,24 +23,24 @@ cache:
 
 env:
   global:
-- export MAKEJOBS=-j5
-- export RUN_TESTS=false
-- export CHECK_DOC=0
-- export BOOST_TEST_RANDOM=1$TRAVIS_BUILD_ID
-- export CCACHE_SIZE=400M
-- export CCACHE_TEMPDIR=/tmp/.ccache-temp
-- export CCACHE_COMPRESS=1
-- export BASE_OUTDIR=$TRAVIS_BUILD_DIR/out
-- export SDK_URL=https://bitcoincore.org/depends-sources/sdks
-- export PYTHON_DEBUG=1
-- export WINEDEBUG=fixme-all
-- export HOST=arm-linux-gnueabihf
-- export PPA="ppa:bitcoin/bitcoin"
-- export PACKAGES="g++-arm-linux-gnueabihf"
-- export DEP_OPTS="NO_QT=1"
-- export CHECK_DOC=1
-- export GOAL="install"
-- export BITCOIN_CONFIG="--enable-glibc-back-compat --enable-reduce-exports"
+	- MAKEJOBS=-j5
+	- RUN_TESTS=false
+	- CHECK_DOC=0
+	- BOOST_TEST_RANDOM=1$TRAVIS_BUILD_ID
+	- CCACHE_SIZE=400M
+	- CCACHE_TEMPDIR=/tmp/.ccache-temp
+	- CCACHE_COMPRESS=1
+	- BASE_OUTDIR=$TRAVIS_BUILD_DIR/out
+	- SDK_URL=https://bitcoincore.org/depends-sources/sdks
+	- PYTHON_DEBUG=1
+	- WINEDEBUG=fixme-all
+	- HOST=arm-linux-gnueabihf
+	- PPA="ppa:bitcoin/bitcoin"
+	- PACKAGES="g++-arm-linux-gnueabihf"
+	- DEP_OPTS="NO_QT=1"
+	- CHECK_DOC=1
+	- GOAL="install"
+	- BITCOIN_CONFIG="--enable-glibc-back-compat --enable-reduce-exports"
 
   matrix:
 # ARM
