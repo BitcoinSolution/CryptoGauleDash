@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: dashd.service
-Upstart: dashd.conf
-OpenRC:  dashd.openrc
-         dashd.openrcconf
-CentOS:  dashd.init
-OS X:    org.dash.dashd.plist
+SystemD: cryptogauled.service
+Upstart: cryptogauled.conf
+OpenRC:  cryptogauled.openrc
+         cryptogauled.openrcconf
+CentOS:  cryptogauled.init
+OS X:    org.cryptogaule.cryptogauled.plist
 
 have been made available to assist packagers in creating node packages here.
 

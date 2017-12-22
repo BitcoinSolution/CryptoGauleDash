@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[dash.qt-translation-012x]
+[cryptogaule.qt-translation-012x]
 file_filter = src/qt/locale/cryptogaule_<lang>.ts
 source_file = src/qt/locale/cryptogaule_en.ts
 source_lang = en
