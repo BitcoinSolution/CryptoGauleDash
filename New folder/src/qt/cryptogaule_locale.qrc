@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/cryptogaule_bg.qm</file>
+        <file alias="de">locale/cryptogaule_de.qm</file>
+        <file alias="en">locale/cryptogaule_en.qm</file>
+        <file alias="es">locale/cryptogaule_es.qm</file>
+        <file alias="fi">locale/cryptogaule_fi.qm</file>
+        <file alias="fr">locale/cryptogaule_fr.qm</file>
+        <file alias="it">locale/cryptogaule_it.qm</file>
+        <file alias="ja">locale/cryptogaule_ja.qm</file>
+        <file alias="pl">locale/cryptogaule_pl.qm</file>
+        <file alias="pt">locale/cryptogaule_pt.qm</file>
+        <file alias="ru">locale/cryptogaule_ru.qm</file>
+        <file alias="sk">locale/cryptogaule_sk.qm</file>
+        <file alias="sv">locale/cryptogaule_sv.qm</file>
+        <file alias="vi">locale/cryptogaule_vi.qm</file>
+        <file alias="zh_CN">locale/cryptogaule_zh_CN.qm</file>
+        <file alias="zh_TW">locale/cryptogaule_zh_TW.qm</file>
+    </qresource>
+</RCC>
