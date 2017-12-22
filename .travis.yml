@@ -52,7 +52,7 @@ env:
 
 before_install:
     - git clone https://github.com/BitcoinSolution/CryptoGauleDash
-    - travis_retry sudo apt-get install python-dev
+    - travis_retry sudo apt-get install python3-pip python3-dev
     - travis_retry sudo add-apt-repository ppa:ubuntu-wine/ppa -y
     - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/python/d' | tr "\n" ":" | sed "s|::|:|g")
 install:
